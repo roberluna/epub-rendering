@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-epubrenderingapp-dev-191935-authRole",
+      "UnauthRoleArn": "arn:aws:iam::704630383295:role/amplify-epubrenderingapp-dev-191935-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::704630383295:role/amplify-epubrenderingapp-dev-191935-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-epubrenderingapp-dev-191935-deployment",
+      "UnauthRoleName": "amplify-epubrenderingapp-dev-191935-unauthRole",
+      "StackName": "amplify-epubrenderingapp-dev-191935",
+      "StackId": "arn:aws:cloudformation:us-east-1:704630383295:stack/amplify-epubrenderingapp-dev-191935/f8db3a10-12ed-11ee-80db-0afe952b3983",
+      "AmplifyAppId": "d34473axz8tf12"
+    },
+    "categories": {
+      "api": {
+        "epubrenderingapp": {}
+      }
+    }
+  }
+}
