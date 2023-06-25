@@ -6,10 +6,9 @@ export default function App({ Component, pageProps }) {
   return(
     <div>
       <NavBar/>
-      <div>
-        
+      <div className="py-8 px-16 bg-slate-100">
+            <Component {...pageProps} />
       </div>
-      <Component {...pageProps} />
     </div>
   )
 
