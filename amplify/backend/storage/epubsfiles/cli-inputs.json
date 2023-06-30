@@ -1,0 +1,16 @@
+{
+  "resourceName": "epubsfiles",
+  "policyUUID": "3d09ea86",
+  "bucketName": "epubrenderingappc4623290ba5a4e2084a1939cd8ea6ef",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
