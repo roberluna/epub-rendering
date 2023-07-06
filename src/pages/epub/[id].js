@@ -1,3 +1,4 @@
+import { Auth, Hub } from 'aws-amplify'
 import { API, Storage } from "aws-amplify";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
@@ -18,6 +19,28 @@ export default function Epub({epub}){
     }
 
     
+    useEffect(()=>{
+        authListener()
+    },[])
+
+     async function authListener(){
+        Hub.listen("auth", (data) =>{
+            switch(data.payload.event){
+                case "signIn":
+                        return setSignedUser(true)
+                case "signOut":
+                        return setSignedUser(false)
+            }
+        })
+
+        try {
+            await Auth.currentAuthenticatedUser()
+            setSignedUser(true)          
+        } catch (error) {
+            
+        }
+    }
+
     useEffect(()=>{
         updateFile()
     },[])

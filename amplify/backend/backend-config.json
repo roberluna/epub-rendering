@@ -1,13 +1,13 @@
 {
   "api": {
-    "epubrenderingapp": {
+    "epubrendering": {
       "dependsOn": [
         {
           "attributes": [
             "UserPoolId"
           ],
           "category": "auth",
-          "resourceName": "epubrenderingapp33d677df"
+          "resourceName": "epubrendering74b1fc02"
         }
       ],
       "output": {
@@ -16,15 +16,13 @@
             {
               "authenticationType": "AMAZON_COGNITO_USER_POOLS",
               "userPoolConfig": {
-                "userPoolId": "authepubrenderingapp33d677df"
+                "userPoolId": "authepubrendering74b1fc02"
               }
             }
           ],
           "defaultAuthentication": {
             "apiKeyConfig": {
-              "apiKeyExpirationDate": "2024-06-24T18:26:59.871Z",
-              "apiKeyExpirationDays": 365,
-              "description": "public api key"
+              "apiKeyExpirationDays": 7
             },
             "authenticationType": "API_KEY"
           }
@@ -35,7 +33,7 @@
     }
   },
   "auth": {
-    "epubrenderingapp33d677df": {
+    "epubrendering74b1fc02": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -60,8 +58,15 @@
       "service": "Cognito"
     }
   },
+  "hosting": {
+    "amplifyhosting": {
+      "providerPlugin": "awscloudformation",
+      "service": "amplifyhosting",
+      "type": "manual"
+    }
+  },
   "storage": {
-    "epubsfiles": {
+    "s36c265207": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "S3"

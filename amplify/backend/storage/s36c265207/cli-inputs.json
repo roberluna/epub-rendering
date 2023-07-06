@@ -1,7 +1,7 @@
 {
-  "resourceName": "epubsfiles",
-  "policyUUID": "3d09ea86",
-  "bucketName": "epubrenderingappc4623290ba5a4e2084a1939cd8ea6ef",
+  "resourceName": "s36c265207",
+  "policyUUID": "6c265207",
+  "bucketName": "epubrenderinga844b3b869504758bb86414bf6cb8ac5",
   "storageAccess": "authAndGuest",
   "guestAccess": [
     "READ"

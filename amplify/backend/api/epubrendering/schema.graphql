@@ -14,7 +14,7 @@ type Epub
   id: ID!
   title: String!
   description: String
-  file: String!
   username: String
-    @index(name: "epubsByUsername", queryField: "epubsByUserName")
+    @index(name: "postsByUsername", queryField: "postsByUsername")
+  file: String!
 }

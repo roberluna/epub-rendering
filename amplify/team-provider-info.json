@@ -1,25 +1,31 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-epubrenderingapp-dev-191935-authRole",
-      "UnauthRoleArn": "arn:aws:iam::704630383295:role/amplify-epubrenderingapp-dev-191935-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::704630383295:role/amplify-epubrenderingapp-dev-191935-authRole",
+      "AuthRoleName": "amplify-epubrendering-dev-192358-authRole",
+      "UnauthRoleArn": "arn:aws:iam::704630383295:role/amplify-epubrendering-dev-192358-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::704630383295:role/amplify-epubrendering-dev-192358-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-epubrenderingapp-dev-191935-deployment",
-      "UnauthRoleName": "amplify-epubrenderingapp-dev-191935-unauthRole",
-      "StackName": "amplify-epubrenderingapp-dev-191935",
-      "StackId": "arn:aws:cloudformation:us-east-1:704630383295:stack/amplify-epubrenderingapp-dev-191935/f8db3a10-12ed-11ee-80db-0afe952b3983",
-      "AmplifyAppId": "d34473axz8tf12"
+      "DeploymentBucketName": "amplify-epubrendering-dev-192358-deployment",
+      "UnauthRoleName": "amplify-epubrendering-dev-192358-unauthRole",
+      "StackName": "amplify-epubrendering-dev-192358",
+      "StackId": "arn:aws:cloudformation:us-east-1:704630383295:stack/amplify-epubrendering-dev-192358/67efb810-1b93-11ee-b690-0ec627c350bb",
+      "AmplifyAppId": "d2bh4o5apvf2ja"
     },
     "categories": {
-      "api": {
-        "epubrenderingapp": {}
-      },
       "auth": {
-        "epubrenderingapp33d677df": {}
+        "epubrendering74b1fc02": {}
+      },
+      "api": {
+        "epubrendering": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2bh4o5apvf2ja",
+          "type": "manual"
+        }
       },
       "storage": {
-        "epubsfiles": {}
+        "s36c265207": {}
       }
     }
   }

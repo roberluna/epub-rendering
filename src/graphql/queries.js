@@ -7,8 +7,8 @@ export const getEpub = /* GraphQL */ `
       id
       title
       description
-      file
       username
+      file
       createdAt
       updatedAt
     }
@@ -25,8 +25,8 @@ export const listEpubs = /* GraphQL */ `
         id
         title
         description
-        file
         username
+        file
         createdAt
         updatedAt
       }
@@ -34,15 +34,15 @@ export const listEpubs = /* GraphQL */ `
     }
   }
 `;
-export const epubsByUserName = /* GraphQL */ `
-  query EpubsByUserName(
+export const postsByUsername = /* GraphQL */ `
+  query PostsByUsername(
     $username: String!
     $sortDirection: ModelSortDirection
     $filter: ModelEpubFilterInput
     $limit: Int
     $nextToken: String
   ) {
-    epubsByUserName(
+    postsByUsername(
       username: $username
       sortDirection: $sortDirection
       filter: $filter
@@ -53,8 +53,8 @@ export const epubsByUserName = /* GraphQL */ `
         id
         title
         description
-        file
         username
+        file
         createdAt
         updatedAt
       }

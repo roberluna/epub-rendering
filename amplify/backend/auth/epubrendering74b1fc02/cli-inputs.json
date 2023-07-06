@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "epubrenderingapp33d677df_identitypool_33d677df",
+    "identityPoolName": "epubrendering74b1fc02_identitypool_74b1fc02",
     "allowUnauthenticatedIdentities": true,
-    "resourceNameTruncated": "epubre33d677df",
-    "userPoolName": "epubrenderingapp33d677df_userpool_33d677df",
+    "resourceNameTruncated": "epubre74b1fc02",
+    "userPoolName": "epubrendering74b1fc02_userpool_74b1fc02",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,10 +31,10 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "epubre33d677df_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "epubre74b1fc02_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "33d677df",
-    "resourceName": "epubrenderingapp33d677df",
+    "sharedId": "74b1fc02",
+    "resourceName": "epubrendering74b1fc02",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
     "userPoolGroupList": [],

@@ -1,12 +1,11 @@
 {
-  "AppSyncApiName": "epubrenderingapp",
+  "AppSyncApiName": "epubrendering",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
   "DynamoDBEnableServerSideEncryption": false,
   "AuthCognitoUserPoolId": {
     "Fn::GetAtt": [
-      "authepubrenderingapp33d677df",
+      "authepubrendering74b1fc02",
       "Outputs.UserPoolId"
     ]
-  },
-  "AuthModeLastUpdated": "2023-06-25T18:27:31.548Z"
+  }
 }

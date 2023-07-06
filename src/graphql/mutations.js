@@ -10,8 +10,8 @@ export const createEpub = /* GraphQL */ `
       id
       title
       description
-      file
       username
+      file
       createdAt
       updatedAt
     }
@@ -26,8 +26,8 @@ export const updateEpub = /* GraphQL */ `
       id
       title
       description
-      file
       username
+      file
       createdAt
       updatedAt
     }
@@ -42,8 +42,8 @@ export const deleteEpub = /* GraphQL */ `
       id
       title
       description
-      file
       username
+      file
       createdAt
       updatedAt
     }
